@@ -6,6 +6,8 @@ import { AppRoutingModule, RoutingComponent } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { SqrtPipe } from './app.sqrt';
+import { ChangeTextDirective } from './change-text.directive';
+import { ChangeColorDirective } from './change-color.directive';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { SqrtPipe } from './app.sqrt';
     HomeComponent,
     ContactusComponent,
     SqrtPipe,
-    RoutingComponent
+    RoutingComponent,
+    ChangeTextDirective,
+    ChangeColorDirective
   ],
   imports: [
     BrowserModule,
